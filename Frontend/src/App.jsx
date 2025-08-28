@@ -1,9 +1,13 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
+
+import Routing from './components/routes/Routing'
 
 const App = () => {
+  
   return (
-    <div className='w-screen h-screen bg-black text-white'>
-      app
+    <div >
+    
+      <Routing />
     </div>
   )
 }
